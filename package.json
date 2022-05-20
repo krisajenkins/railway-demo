@@ -1,5 +1,8 @@
 {
     "main": "src/index.ts",
+    "scripts": {
+        "start": "yarn ts-node src/index.ts"
+    },
     "dependencies": {
         "@types/node": "^17.0.35",
         "@types/ws": "^8.5.3",
